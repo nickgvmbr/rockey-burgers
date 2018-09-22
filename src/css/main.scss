@@ -1,2 +1,48 @@
 @import 'partials/vars';
 @import 'partials/toast';
+
+
+// global
+body {
+  margin: 0;
+  color: $main;
+  font: {
+    family: 'Raleway', sans-serif;
+    size: 14px;
+    weight: 400;
+  }
+
+}
+
+h1 {
+  font: {
+    family: 'Montserrat', sans-serif;
+    size: 40px;
+    weight: 900;
+  }
+
+}
+
+h2 {
+  @extend h1;
+  font-size: 20px;
+}
+
+a {
+  color: $main;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+// layout
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+.marg {
+  margin: 0 30px;
+
+}
