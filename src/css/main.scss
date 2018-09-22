@@ -254,3 +254,18 @@ i {
 #wherebeef-more {
   @extend #whyburger-more;
 }
+
+
+// footer
+.footer {
+  background: seashell; // for dev only
+  margin: 150px 0 45px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .button {
+    margin: 0 30px 0 0;
+  }
+
+}

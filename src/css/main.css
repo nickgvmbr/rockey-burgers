@@ -319,3 +319,12 @@ i {
 #whyburger-more, #wherebeef-more {
   margin: 0 0 30px 0;
   display: none; }
+
+.footer {
+  background: seashell;
+  margin: 150px 0 45px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .footer .button {
+    margin: 0 30px 0 0; }
