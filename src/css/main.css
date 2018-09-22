@@ -186,11 +186,13 @@ h1, h2 {
   font-weight: 900; }
 
 h2 {
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 0 0 15px 0; }
 
 p {
   color: rgba(68, 68, 68, 0.6);
-  line-height: 1.8; }
+  line-height: 1.8;
+  margin: 0; }
 
 a {
   color: #444;
@@ -285,9 +287,20 @@ i {
 .locations {
   margin: 150px 0;
   background: seashell; }
-  .locations h2 {
-    margin: 0 0 15px 0; }
   .locations iframe {
     height: 400px;
     width: 100%;
     margin: 60px 0 0 0; }
+  .locations .columns {
+    margin: 150px 0 0 0;
+    background: azure; }
+    @media screen and (max-width: 700px) {
+      .locations .columns {
+        margin: 60px 0 0 0; } }
+    .locations .columns .row:last-child {
+      margin-top: 60px; }
+      @media screen and (max-width: 700px) {
+        .locations .columns .row:last-child {
+          margin-top: 0; } }
+    .locations .columns .column-item {
+      margin-top: 30px; }
