@@ -104,7 +104,6 @@ i {
   justify-content: space-between;
   align-items: center;
   margin: 45px 0 0 0;
-  background: seashell; // for dev only
 
   .logo {
     height: 60px;
@@ -148,7 +147,6 @@ i {
 // slogan
 .slogan {
   margin: 150px 0;
-  background: seashell; // for dev only
 }
 
 
@@ -168,7 +166,6 @@ i {
 // about
 .about {
   margin: 150px 0 150px 0;
-  background: seashell; // for dev only
 
   .cta {
     margin: 30px 0 0 0;
@@ -206,7 +203,6 @@ i {
 // locations
 .locations {
   margin: 150px 0;
-  background: seashell; // for dev only
 
   iframe {
     height: 400px; width: 100%;
@@ -217,7 +213,6 @@ i {
 
 .columns {
   margin: 150px 0 0 0;
-  background: azure; // for dev only
 
   @media screen and (max-width: 700px) {
     margin: 60px 0 0 0;
@@ -245,7 +240,6 @@ i {
 // faqs
 
 .faqs {
-  background: seashell; // for dev only
   margin: 0 0 150px 0;
 
   h1 {
@@ -274,7 +268,6 @@ i {
 
 // footer
 .footer {
-  background: seashell; // for dev only
   margin: 150px 0 45px 0;
   display: flex;
   justify-content: space-between;
@@ -296,7 +289,6 @@ i {
 // burgers
 .burgers {
   margin: 150px 0;
-  background: seashell;
 
   &-title {
     margin: 0 0 60px 0;

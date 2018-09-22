@@ -239,8 +239,7 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 45px 0 0 0;
-  background: seashell; }
+  margin: 45px 0 0 0; }
   .header .logo {
     height: 60px; }
 
@@ -262,8 +261,7 @@ i {
       margin: 0; }
 
 .slogan {
-  margin: 150px 0;
-  background: seashell; }
+  margin: 150px 0; }
 
 .hero {
   height: 600px;
@@ -273,8 +271,7 @@ i {
   background-position: center; }
 
 .about {
-  margin: 150px 0 150px 0;
-  background: seashell; }
+  margin: 150px 0 150px 0; }
   .about .cta {
     margin: 30px 0 0 0; }
   .about #about-more {
@@ -294,16 +291,14 @@ i {
       display: none; } }
 
 .locations {
-  margin: 150px 0;
-  background: seashell; }
+  margin: 150px 0; }
   .locations iframe {
     height: 400px;
     width: 100%;
     margin: 60px 0 0 0; }
 
 .columns {
-  margin: 150px 0 0 0;
-  background: azure; }
+  margin: 150px 0 0 0; }
   @media screen and (max-width: 700px) {
     .columns {
       margin: 60px 0 0 0; } }
@@ -317,7 +312,6 @@ i {
       margin-top: 30px; } }
 
 .faqs {
-  background: seashell;
   margin: 0 0 150px 0; }
   .faqs h1, .faqs h2 {
     margin: 0 0 60px 0; }
@@ -331,7 +325,6 @@ i {
   display: none; }
 
 .footer {
-  background: seashell;
   margin: 150px 0 45px 0;
   display: flex;
   justify-content: space-between;
@@ -343,8 +336,7 @@ i {
   margin: 45px 0 0 0; }
 
 .burgers {
-  margin: 150px 0;
-  background: seashell; }
+  margin: 150px 0; }
   .burgers-title {
     margin: 0 0 60px 0; }
 
