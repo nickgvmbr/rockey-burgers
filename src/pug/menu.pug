@@ -1,0 +1,207 @@
+doctype html
+html
+
+
+  head
+
+    title Rockey Burgers: Menu
+    include _head.pug
+    script(src="../js/main.js" defer)
+    link(rel="stylesheet", href="../css/main.css")
+
+
+  body
+
+    .container
+      .marg
+
+        //- header
+        .header
+          img(src="../images/logo.png", alt="rockey burgers logo").logo
+
+          //- nav
+          .nav
+            .nav-links
+              a(href="../../index.html") Home
+              a(href="#") Menu
+            .spacer
+            .nav-socials
+              a(href="http://www.twitter.com/keyburgers")
+                i.fab.fa-twitter
+              a(href="https://www.facebook.com/keyburgers")
+                i.fab.fa-facebook
+
+    //- hero
+    .hero#menu-hero
+
+    .container
+      .marg
+
+        //- burgers
+        .burgers
+          .row
+            .col.col--4-of-8.col--push-1-of-8
+              .burgers-title
+                h1 Burgers<br>&amp; toppings
+                p We all know this is what you came here for. Our burgers are cooked medium and are very juicy!
+          
+          .row
+            .col.col--6-of-8
+              .image#burger
+          
+          .columns
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 Rockey Burger <u>$8.25</u>
+                  p Two 4 oz. patties, with Awesome Sauce<br>Add Cheese ... $0.75<br>Add Bacon ... $1.25
+
+              .col.col--3-of-8
+                .column-item
+                  h2 Super Burger <u>$5.75</u>
+                  p 4 oz. patties, with Awesome Sauce<br>Add Cheese ... $0.50<br>Add Bacon ... $1.25
+
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 Free tops <u>Free!</u>
+                  p Lettuce, tomato, red onions, jalapeños, grilled onions, housemade pickles
+
+              .col.col--3-of-8
+                .column-item
+                  h2 Extra tops <u>$1.25</u>
+                  p Avocado, bacon, roasted portobello mushroom, organic egg
+
+        //- fries
+        .fries
+          .row
+            .col.col--4-of-8.col--push-1-of-8
+              .fries-title
+                h1 French fries
+                p You can’t have a burger without fries!
+
+          .columns
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 French fries <u>$2.75</u>
+                  p Delicious freshly peel potatoes fries
+
+              .col.col--3-of-8
+                .column-item
+                  h2 Curly fries <u>$2.75</u>
+                  p Delicious freshly peel potatoes fries, super curly
+
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 Triple dip <u>$1.50</u>
+                  p Super sauce, housemade mayo, and chipotle
+
+        //- tiles
+        .tiles
+          .row
+            .col.col--1-of-2
+              .tile#interior
+            .col.col--1-of-2
+              .tile.tile-down#menu-hero
+
+        //- chicken
+        .chicken
+          .row
+            .col.col--4-of-8.col--push-1-of-8
+              .fries-title
+                h1 Chicken
+                p Natural free range chicken breast with chipotle aioli
+
+          .columns
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 Chicken samich <u>$8.00</u>
+                  p Add Jack Cheese … $0.50<br>Add Bacon … $1.25
+
+              .col.col--3-of-8
+                .column-item
+                  h2 Chicken strips <u>$2.75</u>
+                  p Add Jack Cheese … $0.50<br>Add Bacon … $1.25
+
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 Triple dip <u>$1.50</u>
+                  p Super sauce, housemade mayo, and chipotle
+
+        .row
+          .col.col--6-of-8
+            .image#ice-cream
+
+        //- cones
+        .cones
+          .row
+            .col.col--4-of-8.col--push-1-of-8
+              .fries-title
+                h1 Cones
+                p Rockey Creamery organic soft serve ice cream
+
+          .columns
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 Regular <u>$3.75</u>
+                  p Vanilla, chocolate, or swirled
+
+              .col.col--3-of-8
+                .column-item
+                  h2 Dipped cone <u>$4.50</u>
+                  p Vanilla ice cream, dipped in chocolate
+
+        //- shakes
+        .shakes
+          .row
+            .col.col--4-of-8.col--push-1-of-8
+              .fries-title
+                h1 Shakes &amp; drinks
+                p Rockey Creamery organic soft serve ice cream
+
+          .columns
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 Regular <u>$4.75</u>
+                  p Vanilla, chocolate, or swirled
+
+              .col.col--3-of-8
+                .column-item
+                  h2 Super shake <u>$4.75</u>
+                  p Cookies &amp; Cream, fresh strawberries, or chocolate &amp; chips
+
+          .columns
+            .row
+              .col.col--3-of-8.col--push-1-of-8
+                .column-item
+                  h2 Kids size <u>$3.25</u>
+                  p Vanilla, chocolate, or swirled<br>Add Malt … $0.50
+
+              .col.col--3-of-8
+                .column-item
+                  h2 Drinks <u>!Free refils</u>
+                  p Fountain … $2.50<br>Organic Iced Tea … $2.75<br>Fresh Lemonade … $3.25<br>Water Bottle … $2.00
+        
+        //- footer
+        .footer
+          .actions
+            a(href="#").button Subscribe
+            a(href="") Work with us
+
+          //- nav
+          .nav
+            .nav-links
+              a(href="../../index.html") Home
+              a(href="#") Menu
+            .spacer
+            .nav-socials
+              a(href="http://www.twitter.com/keyburgers")
+                i.fab.fa-twitter
+              a(href="https://www.facebook.com/keyburgers")
+                i.fab.fa-facebook
