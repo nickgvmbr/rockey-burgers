@@ -29,6 +29,12 @@ h2 {
   font-size: 20px;
 }
 
+p {
+  color: transparentize($main, .4);
+  line-height: 1.8;
+  margin: 0;
+}
+
 a {
   color: $main;
   text-decoration: none;
@@ -45,6 +51,27 @@ i {
   border-radius: 5px;
   color: white;
   background: $accent;
+}
+
+.cta {
+  color: $accent;
+  display: inline-block;
+  cursor: pointer;
+
+  &-content {
+    display: flex;
+    align-items: center;
+
+    a {
+      color: $accent;
+    }
+
+    i {
+      margin: 0 0 0 15px;
+    }
+  
+  }
+
 }
 
 
@@ -117,5 +144,17 @@ i {
 .hero {
   height: 600px;
   background: #eee;
+
+}
+
+
+// about
+.about {
+  margin: 150px 0 0 0;
+  background: seashell; // for dev only
+
+  .cta {
+    margin: 45px 0 0 0;
+  }
 
 }
