@@ -302,5 +302,20 @@ i {
       @media screen and (max-width: 700px) {
         .locations .columns .row:last-child {
           margin-top: 0; } }
-    .locations .columns .column-item {
-      margin-top: 30px; }
+    @media screen and (max-width: 700px) {
+      .locations .columns .column-item {
+        margin-top: 30px; } }
+
+.faqs {
+  background: seashell;
+  margin: 0 0 150px 0; }
+  .faqs h1, .faqs h2 {
+    margin: 0 0 60px 0; }
+  .faqs h2 {
+    margin-bottom: 30px; }
+  .faqs .question:last-child {
+    margin: 60px 0 0 0; }
+
+#whyburger-more, #wherebeef-more {
+  margin: 0 0 30px 0;
+  display: none; }
