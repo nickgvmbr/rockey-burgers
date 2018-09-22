@@ -318,9 +318,38 @@ a {
   text-decoration: none;
   font-weight: 700; }
 
+i {
+  font-size: 18px; }
+
 .container {
   max-width: 960px;
   margin: 0 auto; }
 
 .marg {
   margin: 0 30px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px 0 0 0;
+  background: seashell; }
+  .header .logo {
+    height: 60px; }
+
+.nav {
+  display: flex;
+  align-items: center; }
+  .nav .spacer {
+    height: 14px;
+    width: 2px;
+    margin: 0 45px;
+    background: rgba(68, 68, 68, 0.15); }
+  .nav-links a {
+    margin: 0 30px 0 0; }
+    .nav-links a:last-of-type {
+      margin: 0; }
+  .nav-socials a {
+    margin: 0 30px 0 0; }
+    .nav-socials a:last-of-type {
+      margin: 0; }

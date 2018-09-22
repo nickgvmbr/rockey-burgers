@@ -34,15 +34,64 @@ a {
   font-weight: 700;
 }
 
+i {
+  font-size: 18px;
+}
+
 
 // layout
 .container {
   max-width: 960px;
   margin: 0 auto;
-
 }
 
 .marg {
   margin: 0 30px;
+}
+
+
+// header
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px 0 0 0;
+  background: seashell;
+
+  .logo {
+    height: 60px;
+  }
+
+}
+
+
+// nav
+.nav {
+  display: flex;
+  align-items: center;
+
+  .spacer {
+    height: 14px; width: 2px;
+    margin: 0 45px;
+    background: transparentize($main, .85);
+  }
+
+  &-links a {
+    margin: 0 30px 0 0;
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+  }
+
+  &-socials a {
+    margin: 0 30px 0 0;
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+  }
 
 }
