@@ -336,9 +336,6 @@ i {
 .marg {
   margin: 0 30px; }
 
-.section {
-  margin: 150px 0; }
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -366,4 +363,9 @@ i {
       margin: 0; }
 
 .slogan {
+  margin: 150px 0;
   background: seashell; }
+
+.hero {
+  height: 600px;
+  background: #eee; }

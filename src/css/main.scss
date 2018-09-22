@@ -58,10 +58,6 @@ i {
   margin: 0 30px;
 }
 
-.section {
-  margin: 150px 0;
-}
-
 
 // header
 .header {
@@ -69,7 +65,7 @@ i {
   justify-content: space-between;
   align-items: center;
   margin: 45px 0 0 0;
-  background: seashell;
+  background: seashell; // for dev only
 
   .logo {
     height: 60px;
@@ -112,5 +108,14 @@ i {
 
 // slogan
 .slogan {
-  background: seashell;
+  margin: 150px 0;
+  background: seashell; // for dev only
+}
+
+
+// hero
+.hero {
+  height: 600px;
+  background: #eee;
+
 }
