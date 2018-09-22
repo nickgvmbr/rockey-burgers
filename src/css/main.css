@@ -190,8 +190,7 @@ h2 {
 
 p {
   color: rgba(68, 68, 68, 0.6);
-  line-height: 1.8;
-  margin: 0; }
+  line-height: 1.8; }
 
 a {
   color: #444;
@@ -262,7 +261,9 @@ i {
   background: #eee; }
 
 .about {
-  margin: 150px 0 0 0;
+  margin: 150px 0 150px 0;
   background: seashell; }
   .about .cta {
-    margin: 45px 0 0 0; }
+    margin: 30px 0 0 0; }
+  .about #about-more {
+    display: none; }

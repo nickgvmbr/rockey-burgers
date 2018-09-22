@@ -32,7 +32,6 @@ h2 {
 p {
   color: transparentize($main, .4);
   line-height: 1.8;
-  margin: 0;
 }
 
 a {
@@ -150,11 +149,15 @@ i {
 
 // about
 .about {
-  margin: 150px 0 0 0;
+  margin: 150px 0 150px 0;
   background: seashell; // for dev only
 
   .cta {
-    margin: 45px 0 0 0;
+    margin: 30px 0 0 0;
+  }
+
+  #about-more {
+    display: none;
   }
 
 }
