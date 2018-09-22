@@ -306,6 +306,7 @@ body {
   font-weight: 400; }
 
 h1, h2 {
+  margin: 0 0 30px 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 900; }
@@ -321,12 +322,22 @@ a {
 i {
   font-size: 18px; }
 
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  background: #f1a536; }
+
 .container {
   max-width: 960px;
   margin: 0 auto; }
 
 .marg {
   margin: 0 30px; }
+
+.section {
+  margin: 150px 0; }
 
 .header {
   display: flex;
@@ -353,3 +364,6 @@ i {
     margin: 0 30px 0 0; }
     .nav-socials a:last-of-type {
       margin: 0; }
+
+.slogan {
+  background: seashell; }
