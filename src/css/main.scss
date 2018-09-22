@@ -45,6 +45,12 @@ a {
 u {
   font-weight: 700;
   color: $accent;
+  font: {
+    size: 14px;
+    weight: 700;
+    family: 'Raleway', sans-serif;
+  }
+
 }
 
 i {
@@ -197,28 +203,28 @@ i {
     margin: 60px 0 0 0;
   }
 
-  .columns {
-    margin: 150px 0 0 0;
-    background: azure; // for dev only
+}
+
+.columns {
+  margin: 150px 0 0 0;
+  background: azure; // for dev only
+
+  @media screen and (max-width: 700px) {
+    margin: 60px 0 0 0;
+  }
+
+  .row:last-child {
+    margin-top: 60px;
 
     @media screen and (max-width: 700px) {
-      margin: 60px 0 0 0;
+      margin-top: 0;
     }
 
-    .row:last-child {
-      margin-top: 60px;
+  }
 
-      @media screen and (max-width: 700px) {
-        margin-top: 0;
-      }
-
-    }
-
-    .column-item {
-      @media screen and (max-width: 700px) {
-        margin-top: 30px;
-      }
-
+  .column-item {
+    @media screen and (max-width: 700px) {
+      margin-top: 30px;
     }
 
   }
@@ -268,4 +274,23 @@ i {
     margin: 0 30px 0 0;
   }
 
+}
+
+
+// hero
+#menu-hero {
+  margin: 45px 0 0 0;
+}
+
+
+// burgers
+.burgers {
+  margin: 150px 0;
+  background: seashell;
+}
+
+.image {
+  height: 300px;
+  background: #eee;
+  margin: 60px 0 0 0;
 }
