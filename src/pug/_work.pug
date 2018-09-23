@@ -1,0 +1,49 @@
+
+.overlay#work
+  .modal
+    .modal-marg
+
+      i.fas.fa-times-circle#work-close
+      h2 Jobs
+      p Join our great team!
+
+      form
+
+        .form-group
+          label Name
+          input(type="text" placeholder="First")
+          input(type="text" placeholder="Last")
+        .form-group
+          label Address
+          input(type="text" placeholder="Line 1")
+          input(type="text" placeholder="Line 2")
+        .form-group
+          label City
+          input(type="text")
+        .form-group
+          label State
+          input(type="text")
+        .form-group
+          label Zip
+          input(type="text")
+        .form-group
+          label Phone
+          input(type="text")
+        .form-group
+          label Email
+          input(type="email")
+        .form-group
+          label Work history
+          p Tell us about your last two jobs. What did you do? Who did you work for? How long were you there?
+          input(type="text")
+          input(type="text")
+        .form-group
+          label Availability<br>
+          <input type="radio" name="availability" value="male" checked> Daytime
+          <input type="radio" name="availability" value="female"> Evenings
+          <input type="radio" name="availability" value="other"> Anytime  
+        .form-group
+          label What makes you a great fit?
+          input(type="text")
+        .form-group
+          input(type='submit')

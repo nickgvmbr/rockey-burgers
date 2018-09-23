@@ -12,6 +12,9 @@ html
 
   body
 
+    include src/pug/_subscribe.pug
+    include src/pug/_work.pug
+
     .container
       .marg
 
@@ -136,8 +139,8 @@ html
         //- footer
         .footer
           .actions
-            a(href="#").button Subscribe
-            a(href="") Work with us
+            a.button#sub-open Subscribe
+            a#work-open Work with us
 
           //- nav
           .nav

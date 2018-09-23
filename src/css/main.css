@@ -209,12 +209,13 @@ u {
 i {
   font-size: 18px; }
 
-.button {
+.button, input[type='submit'] {
   display: inline-block;
   padding: 15px 30px;
   border-radius: 5px;
   color: white;
-  background: #f1a536; }
+  background: #f1a536;
+  cursor: pointer; }
 
 .cta {
   color: #f1a536;
@@ -329,7 +330,7 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .footer .button {
+  .footer .button, .footer input[type='submit'] {
     margin: 0 30px 0 0; }
 
 #menu-hero {
@@ -382,3 +383,57 @@ i {
 
 #burger {
   background-image: url("../images/burger.jpg"); }
+
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  bottom: 0;
+  background: rgba(68, 68, 68, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.modal {
+  height: 500px;
+  width: 400px;
+  background: white;
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.16);
+  margin: 45px;
+  overflow: auto; }
+  .modal-marg {
+    margin: 45px; }
+  .modal i {
+    position: relative;
+    float: right;
+    cursor: pointer; }
+  .modal p {
+    margin: 0 0 30px 0; }
+
+input[type='email'], input[type='text'] {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  padding: 7px 0;
+  display: inline-block; }
+
+label {
+  font-weight: 700; }
+
+.form-group {
+  margin: 0 0 15px 0; }
+
+input[type='submit'] {
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700; }
+
+#sub {
+  display: none; }
+
+#work {
+  display: none; }
+
+#work-open {
+  cursor: pointer; }

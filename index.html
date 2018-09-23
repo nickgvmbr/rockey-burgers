@@ -11,6 +11,89 @@
     <link rel="stylesheet" href="src/css/main.css">
   </head>
   <body>
+    <div class="overlay" id="sub">
+      <div class="modal">
+        <div class="modal-marg"><i class="fas fa-times-circle" id="sub-close"></i>
+          <h2>Subscribe</h2>
+          <p>Don't miss out on any discounts!</p>
+          <form>
+            <div class="form-group">
+              <label>Full name</label>
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email">
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <input type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="work">
+      <div class="modal">
+        <div class="modal-marg"><i class="fas fa-times-circle" id="work-close"></i>
+          <h2>Jobs</h2>
+          <p>Join our great team!</p>
+          <form>
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" placeholder="First">
+              <input type="text" placeholder="Last">
+            </div>
+            <div class="form-group">
+              <label>Address</label>
+              <input type="text" placeholder="Line 1">
+              <input type="text" placeholder="Line 2">
+            </div>
+            <div class="form-group">
+              <label>City</label>
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <label>State</label>
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <label>Zip</label>
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email">
+            </div>
+            <div class="form-group">
+              <label>Work history</label>
+              <p>Tell us about your last two jobs. What did you do? Who did you work for? How long were you there?</p>
+              <input type="text">
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <label>Availability<br></label><input type="radio" name="availability" value="male" checked> Daytime
+<input type="radio" name="availability" value="female"> Evenings
+<input type="radio" name="availability" value="other"> Anytime  
+            </div>
+            <div class="form-group">
+              <label>What makes you a great fit?</label>
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <input type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="marg">
         <div class="header"><img class="logo" src="src/images/logo.png" alt="rockey burgers logo">
@@ -135,7 +218,7 @@
           </div>
         </div>
         <div class="footer">
-          <div class="actions"><a class="button" href="#">Subscribe</a><a href="">Work with us</a></div>
+          <div class="actions"><a class="button" id="sub-open">Subscribe</a><a id="work-open">Work with us</a></div>
           <div class="nav">
             <div class="nav-links"><a href="#">Home</a><a href="src/pug/menu.html">Menu</a></div>
             <div class="spacer"></div>
